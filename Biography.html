@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="index.html">SMAN 11 Jakarta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Topik
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="history.html">History</a></li>
+                      <li><a class="dropdown-item" href="Educational.html">Educational</a></li>
+                      <li><a class="dropdown-item" href="Biography.html">Biography</a></li>
+                      <li><a class="dropdown-item" href="Biology.html">Biology</a></li>
+                    </ul>
+                  </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h2>Daftar Buku Biography</h2>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Cari buku..">
+    </div>
+
+    <table id="myTable">
+        <tr>
+            <th>Judul</th>
+            <th>Pengarang</th>
+            <th>Tahun Terbit</th>
+        </tr>
+        <tr>
+            <td>Bung Hatta: Biografi Politik</td>
+            <td>Audrey R. Kahin</td>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <td>Soeharto: The Life and Legacy of Indonesia's Second President</td>
+            <td>R. E. Elson</td>
+            <td>2011</td>
+        </tr>
+        <tr>
+            <td>Soekarno: Founding Father of Indonesia, 1901-1945</td>
+            <td>Richard McMillan</td>
+            <td>2003</td>
+        </tr>
+        <tr>
+            <td>Habibie & Ainun</td>
+            <td>Bacharuddin Jusuf Habibie</td>
+            <td>2011</td>
+        </tr>
+        <!-- Tambahkan entri buku lain di sini -->
+    </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+    
+    <footer>
+        <p>Library SMAN 11 Jakarta</p>
+    </footer>
+
+</body>
+</html>
